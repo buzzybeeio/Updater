@@ -1,0 +1,25 @@
+{
+  "name": "updater",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hernanmendez/Updater.git"
+  },
+  "author": "Hernan Mendez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hernanmendez/Updater/issues"
+  },
+  "homepage": "https://github.com/hernanmendez/Updater#readme",
+  "dependencies": {
+    "grunt": "^1.0.1",
+    "grunt-cli": "^1.2.0",
+    "grunt-react": "^0.12.3",
+    "react": "^15.6.1"
+  }
+}
