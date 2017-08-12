@@ -1,49 +1,51 @@
-module.exports = function(grunt){
+module.exports = function (grunt) {
 
   grunt.initConfig({
-  react: {
-    dynamic_mappings: {
-      files: [
-        {
+    babel: {
+      options: {
+        presets: ['es2015', 'react']
+      },
+      build: {
+        files: [{
           expand: true,
-          cwd: './stories',
+          cwd: 'stories',
           src: ['**/*.jsx'],
-          dest: './compiled',
+          dest: 'compiled',
           ext: '.js'
-        }
-      ]
+        }]
+      }
     }
-  }
-})
+  })
 
-grunt.loadNpmTasks('grunt-react')
+  grunt.loadNpmTasks('grunt-babel')
 
-  grunt.registerTask('default', "", function(){
+  grunt.registerTask('default', "", function () {
 
     var execSync = require('child_process').execSync;
-
     var fs = require("fs");
+    var renderToStaticMarkup = require('react-dom/server').renderToStaticMarkup;
+    var React = require('react')
 
-    execSync("grunt react");
+    execSync("grunt babel");
 
     var components = fs.readdirSync("./compiled")
+      .map(filename => renderToStaticMarkup(React.createElement(require('./compiled/' + filename).default, null)))
 
-    for(var filename of components){
+    var names = fs.readdirSync("./compiled")
+      .map(name => name.substr(0, name.length - 3))
 
-      var story = fs.readFileSync('./compiled/'+filename,"utf8")
-
-      //won't be able to use ` on the code
-
-      story = 'var Story=`'+story+'\`;module.exports=Story'
-
-      fs.writeFileSync('./compiled/'+filename,story)
-
-    }
-
-    components = components.map( name => 
-      JSON.stringify({title: name.substr(0,name.length-3), component: require('./compiled/'+name)})
+    components = components.map((component, index) =>
+      JSON.stringify({ title: names[index], component: component })
     )
-  
-    //now just clean the code and make then the mongo part
+
+    //here add the mongo code
+
+    //code for deleting the compiled file
+    for(var filename of fs.readdirSync('compiled')){
+      fs.unlinkSync('compiled/'+filename)
+    }
+    fs.rmdirSync('compiled')
+
   });
+
 }
