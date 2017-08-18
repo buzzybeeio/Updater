@@ -2,8 +2,8 @@ const execSync = require('child_process').execSync;
 const fs = require("fs");
 const renderToStaticMarkup = require('react-dom/server').renderToStaticMarkup;
 const React = require('react')
-var moongoose = require('mongoose')
-moongoose.connect(require('./mongosettings'))
+var mongoose = require('mongoose')
+mongoose.connect(require('./mongosettings'))
 //requires and connection to the database
 
 execSync("grunt babel");
@@ -25,8 +25,8 @@ fs.rmdirSync('compiled')
 ///////////////////////////////
 
 //updating the database
-var storySchema = moongoose.Schema({ name: String, component: String })
-var storyModel = moongoose.model('stories', storySchema)
+var storySchema = mongoose.Schema({ name: String, component: String })
+var storyModel = mongoose.model('stories', storySchema)
 
 storyModel.find((err, stories) => {
 
@@ -43,7 +43,7 @@ storyModel.find((err, stories) => {
         storyModel.update( { name: components[story].name }, { $set: { component: components[story].component } } )
       }
 
-      console.log( "done: " + story.name )
+      console.log( "done: " + components[story].name )
     })
 
   }
