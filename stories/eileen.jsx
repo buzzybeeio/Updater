@@ -1,8 +1,8 @@
 import React from 'react'
 
-var Story = function () {
+var Story = () => {
   return (
-    <div className="container story">
+    <div>
       <img className="narrator-pic" src="profilepics/eileen.jpg" alt="" />
       <h4 className="story-title"><em>Eileen, Software Engineer at therachat.io</em></h4>
       <p><em>This week we got a chance to interview Eileen Zhong. She is a Software Engineer at Therachat.io. Eileen not only managed to break into the tech industry without a computer science background but she managed to do so as a woman. Here is the interview:</em></p>
