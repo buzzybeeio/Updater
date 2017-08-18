@@ -32,16 +32,23 @@ let storyModel = mongoose.model('stories', storySchema)
 
     storyModel.findOne({ name: components[story].name }, function (err, doc) {
       if(err) return console.error( err )
-
+      
+      let Story;
       if (!doc) {
-        let Story = new storyModel( components[story] )
-        Story.save()
+        Story = new storyModel( components[story] )
+        Story.save(function(error){
+          if(error) return console.error('something went wrong with '+ components[story].name + ': ' + error)
+          console.log('Done '+components[story].name)
+          if(story == components.length-1) process.exit(0)
+        })
       }
       else {
-        storyModel.update( { name: components[story].name }, { $set: { component: components[story].component } } )
+        storyModel.findOneAndUpdate( { _id: doc._id },  { component: components[story].component }, function(error){
+          if(error) return console.error('something went wrong with '+ components[story].name + ': ' + error)
+          console.log('Done '+components[story].name) 
+          if(story == components.length-1) process.exit(0)
+        })
       }
-
-      console.log( "done: " + components[story].name )
     })
 
   }
