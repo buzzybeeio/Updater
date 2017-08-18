@@ -23,6 +23,7 @@
     "grunt": "^1.0.1",
     "grunt-babel": "^7.0.0",
     "grunt-cli": "^1.2.0",
+    "mongoose": "^4.11.7",
     "react": "^15.6.1",
     "react-dom": "^15.6.1"
   }

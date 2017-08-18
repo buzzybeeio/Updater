@@ -25,6 +25,7 @@ module.exports = function (grunt) {
     var fs = require("fs");
     var renderToStaticMarkup = require('react-dom/server').renderToStaticMarkup;
     var React = require('react')
+    var moongoose = require('mongoose')
 
     execSync("grunt babel");
 
