@@ -16,8 +16,7 @@ let components = fs.readdirSync("./compiled")
 let names = fs.readdirSync("./compiled")
   .map(name => name.substr(0, name.length - 3))
 
-components = components.map((component, index) =>
-{ return { name: names[index], component: component, date: (new Date).getTime() } })
+components = components.map((component, index) => { return { name: names[index], component: component, date: (new Date).getTime() } })
 
 //deleting the 'compiled' folder
 for (let filename of fs.readdirSync('compiled')) {
@@ -27,33 +26,35 @@ fs.rmdirSync('compiled')
 ///////////////////////////////
 
 //updating the database
-let storySchema = mongoose.Schema({ name: String, component: String, date: Number })
-let storyModel = mongoose.model('stories', storySchema)
+const storySchema = mongoose.Schema({ name: String, component: String, date: Number })
+const storyModel = mongoose.model('stories', storySchema)
 
-  for (let story in components) {
+for (const story in components) {
 
-    storyModel.findOne({ name: components[story].name }, function (err, doc) {
-      if(err) return console.error( err )
-      
-      let Story;
-      if (!doc) {
-        Story = new storyModel( components[story] )
-        Story.save(function(error){
-          if(error) return console.error('something went wrong with '+ components[story].name + ': ' + error)
-          console.log('Done '+components[story].name)
-          if(story == components.length-1) process.exit(0)
-        })
-      }
-      else {
-        storyModel.findOneAndUpdate( { _id: doc._id },  { component: components[story].component }, function(error){
-          if(error) return console.error('something went wrong with '+ components[story].name + ': ' + error)
-          console.log('Done '+components[story].name) 
-          if(story == components.length-1) process.exit(0)
-            
-        })
-      }
-    })
+  storyModel.findOne({ name: components[story].name }, (err, doc) => {
+    if (err) return console.error(err)
 
-  }
+    if (!doc) {
+      const Story = new storyModel(components[story])
+
+      Story.save().catch(error => {
+        if (error) return console.error('something went wrong with ' + components[story].name + ': ' + error)
+        console.log('Done ' + components[story].name)
+        if (story == components.length - 1) process.exit(0)
+      })
+
+    }
+    else {
+      storyModel.findByIdAndUpdate(doc._id, { component: components[story].component }, error => {
+        if (error) return console.error('something went wrong with ' + components[story].name + ': ' + error)
+        console.log(`Done ${components[story].name}`)
+        if (story == components.length - 1) process.exit(0)
+      })
+
+    }
+    
+  })
+
+}
 
 //////////////////////
