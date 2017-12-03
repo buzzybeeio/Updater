@@ -38,7 +38,7 @@ const Story = () => (
     <p>"I think being positive has helped me a lot in college, life, and my career. It’s shaped my thinking, mindset, and endurance to go through hardships. Let’s be real, everyone has faced rejection at some point, so when you receive rejection from a company or person you have to learn to deal with it and move on. If you stay there you will feel terrible. It’s a mental game: once you’re strong enough to deal with your own mind, then you can do anything you want to do or anything you want to become.</p>
     <p>Thanks for the great interview =)</p>
     <p>You can find me at <a href="https://www.instagram.com/rchrdchn/" target="_blank" rel="noopener noreferrer">Instagram</a> and <a href="https://medium.com/@rchrdchn" target="_blank" rel="noopener noreferrer">Medium</a> - both @rchrdchn"</p>
-    <p><em>For more awesome stories check out our <a href="https://www.facebook.com/buzzybee.io/" target="_blank" rel="noopener noreferrer">facebook</a> and <a href="https://medium.com/@buzzybeeio268" target="_blank" rel="noopener noreferrer">medium</a> page!</em></p>
+    <p><em>For more awesome stories check out our <a href="https://www.facebook.com/buzzybee.io/" target="_blank" rel="noopener noreferrer">facebook</a> and <a href="https://medium.com/@buzzybeeio" target="_blank" rel="noopener noreferrer">medium</a> page!</em></p>
   </div>
 );
 

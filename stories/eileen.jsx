@@ -22,7 +22,7 @@ var Story = () => {
       <p>"I think it all boils down to awareness. Everyone needs to be aware of their actions and whether or not they are being discriminatory against someone because of their gender, race, religion, etc. Women are not second-class citizens and are not inferior in any way, shape, or form to their male counterparts." </p>
       <p><strong>What are some last thoughts/advice?</strong></p>
       <p>"Don’t be greedy. Take chances. Take the job that pays you a little less, but gives you the autonomy to pick technologies and build features. Take every learning opportunity you can get: the opportunities that will make you a better developer and the opportunities that will make you a better person. And last, don’t ever get discouraged. The world is your oyster!"</p>
-      <p><em>For more awesome stories check out our <a href="https://www.facebook.com/buzzybee.io/" target="_blank">facebook</a> page!</em></p>
+      <p><em>For more awesome stories check out our <a href="https://www.facebook.com/buzzybee.io/" target="_blank" rel="noopener noreferrer">facebook</a> and <a href="https://medium.com/@buzzybeeio" target="_blank" rel="noopener noreferrer">medium</a> page!</em></p>
     </div>
   )
 }

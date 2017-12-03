@@ -21,7 +21,7 @@ const Story = () => (
     <p>“It’s important to figure out what you are passionate about. If you like designing and making things look good, maybe you’ll want to focus on being a Front-End Developer. If you’re a very logical person, you might think about being a Back-End Developer. It’s important to understand what it is that you like to do because you don’t want to hate your job. You want to do something that you love.”</p>
     <p><strong>Do you have any last thoughts/advice?</strong></p>
     <p>“Becoming a Software Engineer is a long journey, so just keep at it. Nobody should have to go through the journey alone, so reach out and meet with people going through, or have gone through, the same transformation.”</p>
-    <p><em>For more awesome stories check out our <a href="https://www.facebook.com/buzzybee.io/" target="_blank" rel="noopener noreferrer">facebook</a> and <a href="https://medium.com/@buzzybeeio268" target="_blank" rel="noopener noreferrer">medium</a> page!</em></p>
+    <p><em>For more awesome stories check out our <a href="https://www.facebook.com/buzzybee.io/" target="_blank" rel="noopener noreferrer">facebook</a> and <a href="https://medium.com/@buzzybeeio" target="_blank" rel="noopener noreferrer">medium</a> page!</em></p>
   </div>
 );
 
