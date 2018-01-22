@@ -1,10 +1,15 @@
 import React from 'react';
 
-const Story = () => (
+const introducction = () => (
   <div>
     <img className="narrator-pic" src="profilepics/richard.jpg" alt="" />
     <h4 className="story-title"><em>Richard, Web Developer at Ascendify</em></h4>
-    <p><em>This week we got a chance to interview Richard Chan. He is a Web Developer at Ascendify. Richard is passionate about helping people and wants to eventually create software to help Venezuela, the country that he grew up in. Here is the interview:</em></p>
+    <p><em>This week we got a chance to interview Richard Chan. He is a Web Developer at Ascendify. Richard is passionate about helping people and wants to eventually create software to help Venezuela, the country that he grew up in.</em></p>
+  </div>
+);
+
+const interview = () => (
+  <div>
     <p><strong>Can you tell us a little bit about your background?</strong></p>
     <p>"I was born in the Bay Area then I moved to Venezuela for 18 years. So I grew up there and Spanish was my first language. After highschool, I moved back to the Bay Area just for college because the opportunities here are better after you get a bachelor’s degree. I went to City College of San Francisco for my associate’s degree and transferred to San Francisco State University because there was a transfer program at University of Hong Kong that I wanted to go to. I went Hong Kong for the first time in 2009 and thought, 'Wow, this is a pretty amazing place!' along with the energy, vibe, and the public transportation. I realized I wanted to live there for a year and when I came back from the trip and I met with a SFSU student who went to exchange there for a year so I wanted to transfer there and just get into that program. Fortunately, I was able to get into the program with some scholarships. And that was the best year of my college life. During college I studied business, which is something that is not related to software development or web development, mainly because I wanted to be a business guy and open my own company but I realized I needed more hard skills, like design or software. Or you know, something more hands-on than just having this big idea and just finding two to three people that I trust to build something."</p>
     <p><strong>So was this your starting point to going into SE or WD?</strong></p>
@@ -42,4 +47,4 @@ const Story = () => (
   </div>
 );
 
-export default Story;
+export default { introducction, interview };

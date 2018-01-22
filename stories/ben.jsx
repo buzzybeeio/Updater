@@ -1,10 +1,15 @@
 import React from 'react';
 
-const Story = () => (
+const introducction = () => (
   <div>
     <img className="narrator-pic" src="profilepics/ben.jpg" alt="" />
     <h4 className="story-title"><em>Ben, Engineer at The Information</em></h4>
-    <p><em>This week we got a chance to interview Ben Manning. He is an Engineer at ‘The Information’. Ben was able to transition from being a Preschool Teacher to a Software Engineer.  Here is the interview:</em></p>
+    <p><em>This week we got a chance to interview Ben Manning. He is an Engineer at ‘The Information’. Ben was able to transition from being a Preschool Teacher to a Software Engineer.</em></p>
+  </div>
+);
+
+const interview = () => (
+  <div>
     <p><strong>Can you tell us a little bit about your background?</strong></p>
     <p>"I come from an education/psychology background. For roughly five years out of college I taught preschool and worked with children with special needs. I also taught music lessons on the side and ran the music program for the preschool."</p>
     <p><strong>What made you want to become a Software Engineer?</strong></p>
@@ -30,4 +35,4 @@ const Story = () => (
   </div>
 );
 
-export default Story;
+export default { introducction, interview };

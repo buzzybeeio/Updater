@@ -1,10 +1,15 @@
 import React from 'react';
 
-const Story = () => (
+const introducction = () => (
   <div>
     <img className="narrator-pic" src="profilepics/ali.jpg" alt="" />
     <h4 className="story-title"><em>Ali, Software Engineer at App Academy</em></h4>
-    <p><em>This week we got a chance to interview Ali Haq. He finished App Academy's Programming Course and is currently teaching there. Ali is extremely knowledgeable, here is his interview:</em></p>
+    <p><em>This week we got a chance to interview Ali Haq. He finished App Academy's Programming Course and is currently teaching there. Ali is extremely knowledgeable.</em></p>
+  </div>
+);
+
+const interview = () => (
+  <div>
     <p><strong>Can you tell us a little bit about your background?</strong></p>
     <p>“Sure! I actually majored in Economics at Vanderbilt University (down in Nashville). To be quite frank, a huge factor in my choosing the major was what many of my friends were doing; while I enjoyed many of the courses, I didn’t really know what path I would take afterwards. After doing some soul searching, I stumbled across a website called Project Euler, a site that involves solving math problems using code. Coding out a brute force solution and then realizing that there was a more optimal way of doing things was more fun than it should have been. I realized a little later that tech was an industry that I could see myself thriving in, and from there I took a few online courses (on edX and Coursera) and then attended App Academy, a selective coding bootcamp. I also recently went through a service called Triplebyte, which essentially connects you with companies without looking at your background (particularly useful for those of us that don’t have STEM degrees!).”</p>
     <p><strong>What inspired you to become a software engineer?</strong></p>
@@ -25,4 +30,4 @@ const Story = () => (
   </div>
 );
 
-export default Story;
+export default { introducction, interview };

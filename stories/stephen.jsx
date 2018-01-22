@@ -1,10 +1,15 @@
 import React from 'react';
 
-const Story = () => (
+const introducction = () => (
   <div>
     <img className="narrator-pic" src="profilepics/stephen.jpg" alt="" />
     <h4 className="story-title"><em>Stephen, Software Engineer at Marketo</em></h4>
-    <p><em>This week we got a chance to interview Stephen Leung. He is a Software Engineer at Marketo. Stephen is passionate about programing and has gone through Hack Reactor to become a Software Engineer. Here is the interview:</em></p>
+    <p><em>This week we got a chance to interview Stephen Leung. He is a Software Engineer at Marketo. Stephen is passionate about programing and has gone through Hack Reactor to become a Software Engineer.</em></p>
+  </div>
+);
+
+const interview = () => (
+  <div>
     <p><strong>Can you tell us a little bit about your background?</strong></p>
     <p>“I graduated from UC Davis with an Applied Physics Degree and I decided to become a teacher. Both of my parents were teachers so it was inevitable that I would give teaching a try. I even got a master’s degree in education. I taught public high school math for four years. I liked it but I didn’t like it enough to do it for the rest of my life. I considered programming because I grew up playing computer games; not relevant, but still. This was in 2011, there weren’t really any bootcamps, so I decided to try to get into the tech field through working with hardware. But working on servers wasn’t helping me write any software, and I wasn’t anywhere near my goal of being a software engineer. I started out teaching myself a little bit of coding, and when I found FreeCodeCamp, I used it to learn HTML, CSS, and JavaScript. I still didn’t feel ready applying for jobs so, in 2016, I quit my job as an Information Systems Technician to pursue programming full-time. I stumbled across Hack Reactor. I applied to their program, but was rejected. The week after that was terrible, because I felt that I was ready and that they didn’t know how much I knew. I was pretty bummed; it felt like getting rejected from your dream school. But the upside was that I could reapply in three months, so I devoted a lot of my time to studying basic JavaScript. I got in my second time around.”</p>
     <p><strong>What did you learn in Hack Reactor?</strong></p>
@@ -25,4 +30,4 @@ const Story = () => (
   </div>
 );
 
-export default Story;
+export default { introducction, interview };

@@ -1,10 +1,15 @@
 import React from 'react';
 
-const Story = () => (
+const introducction = () => (
   <div>
     <img className="narrator-pic" src="profilepics/jonathan.jpg" alt="" />
     <h4 className="story-title"><em>Jonathan, software engineer at Ten-X</em></h4>
-    <p><em>This week we got a chance to interview Jonathan Ankiewicz. He is a software engineer at Ten-X. Jonathan made a transition the transition as a Security Officer to Software Engineer. Here is the interview:</em></p>
+    <p><em>This week we got a chance to interview Jonathan Ankiewicz. He is a software engineer at Ten-X. Jonathan made a transition the transition as a Security Officer to Software Engineer.</em></p>
+  </div>
+);
+
+const interview = () => (
+  <div>
     <p><strong>Can you tell us a little bit about your background?</strong></p>
     <p>“I joined the Marine Corps instead of college, I felt I needed a bit more structure and purpose than what I was getting through normal society. And, I got just that. I joined the Marine Corps and a year later a few people couldn’t even recognize who I had become because of my behavior change; besides looking a little muscular, I didn’t change much physically. I learned a lot in the Marines and I returned from my 5 years in with one tour to Iraq a new person.</p>
     <p>I had no idea what to do with myself as I got out. Luckily for me, I was approached by a recruiter who made my decision easier. He encouraged me to step into the executive protection field, and I became a bodyguard for CEO’s and celebrities; the earpiece and red carpet type of body guard. This lasted a few years. To become a better protector, I became a Nationally Certified EMT. I was given the opportunity to do some work out of Stanford ER as an ER Tech, at the same time that I was working security.</p>
@@ -44,4 +49,4 @@ const Story = () => (
   </div>
 );
 
-export default Story;
+export default { introducction, interview };

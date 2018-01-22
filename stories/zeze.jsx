@@ -1,10 +1,15 @@
 import React from 'react';
 
-const Story = () => (
+const introducction = () => (
   <div>
     <img className="narrator-pic" src="profilepics/zeze.jpg" alt="" />
     <h4 className="story-title"><em>José, Software Engineer at Inbenta</em></h4>
-    <p><em>This week we got a chance to interview José Manuel Vázquez Guízar. José is a Solutions Engineer at Inbenta. When he's not coding, he often times researches cryptocurrency. Here is the interview:</em></p>
+    <p><em>This week we got a chance to interview José Manuel Vázquez Guízar. José is a Solutions Engineer at Inbenta. When he's not coding, he often times researches cryptocurrency.</em></p>
+  </div>
+);
+
+const interview = () => (
+  <div>
     <p><strong>Can you tell us a little bit about your background?</strong></p>
     <p>“I studied philosophy as an undergrad and went straight into a variety of sales and business development roles across different industries.”</p>
     <p><strong>What made you want to become a Software Engineer?</strong></p>
@@ -29,4 +34,4 @@ const Story = () => (
   </div>
 );
 
-export default Story;
+export default { introducction, interview };

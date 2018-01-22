@@ -1,10 +1,15 @@
 import React from 'react';
 
-const Story = () => (
+const introducction = () => (
   <div>
     <img className="narrator-pic" src="profilepics/catherine.jpg" alt="" />
     <h4 className="story-title"><em>Catherine, Software Engineer Lead at Type A Machines</em></h4>
-    <p><em>This week we got a chance to interview Catherine Casuat. She is the Software Engineering Lead at Type A Machines. Catherine is a self-taught Software Engineer. Here is the interview:</em></p>
+    <p><em>This week we got a chance to interview Catherine Casuat. She is the Software Engineering Lead at Type A Machines. Catherine is a self-taught Software Engineer.</em></p>
+  </div>
+);
+
+const interview = () => (
+  <div>
     <p><strong>Can you tell us a little bit about your background?</strong></p>
     <p>“I pretty much grew up in San Leandro High and I’ve been here all my life. I went to elementary school at Woodrow Wilson and John Muir for middle school and onto San Leandro High School. And up to that point I wasn’t technically inclined I was very much more an English and history type of person. Or that’s where my interests usually lied. In fact, I was thinking about doing Peace Corps or something of that sort. So upon going to college I didn’t know what I wanted to do. I had various interests but I didn't know what was going to stick. So after two years of doing various things I kind of paused and decided to go about looking into software. And that was particularly because, really early on I used to create web pages and it just ended up being something that stuck with me and I felt that I have some foundation in it to keep that interest going.</p>
     <p>I ended up taking an Intro into computer science class at Laney initially. And my professor was sort of an asshole in every particular way; he didn’t want people recording his classes because he was particularly verbally abusive to all of his students. And along with that he wasn't particular on people and having women in his class and I couldn't get a recording of that because he didn't allow recording. Very early on, I was still trying to get into his class and I was trying to get a document for him to sign to allow me to get into his class. When he was making an announcement about people who wanted to get into the class to go and talk to him afterclass. I was in line and I was up next but he completely looks past my shoulder and says ‘is anyone else interested?’. He asks everyone who was standing around to see if they wanted to be in his class who he needs to give signatures to and me being in front of him he looks past my shoulders as if I'm not even there. It was very clear that that was the kind of treatment I was going to receive for the rest of the semester and that was not something I was keen on having. I ended up taking the same sort of Intro to computer class at Chabot. The couple of professors they have there are okay, and the other one was sort of the similar to the other professor back at Laney. For a while, he and I were relatively cordial and he expressed interest in my interest in compsci which I found to be positive. I thought that potentially I could go about writing assignments and doing things that are slightly more challenging than the current curriculum and ended up submitted an assignment with a few more advanced concepts in C++ and I wanted to go over it with him to see what he had to say as to whether I was using things correctly or if I was getting over my head or something. Upon submitting that email with that assignment, he responds ‘if you’re going to cheat than you may as well be inconspicuous about it and if you went to UC Berkeley or Cal State, a professor would call you in and ask you to explain your code line by line’ and he was making all these accusatory remarks about me cheating.”</p>
@@ -39,4 +44,4 @@ const Story = () => (
   </div>
 );
 
-export default Story;
+export default { introducction, interview };

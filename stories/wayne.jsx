@@ -1,10 +1,15 @@
 import React from 'react';
 
-const Story = () => (
+const introducction = () => (
   <div>
     <img className="narrator-pic" src="profilepics/wayne.jpg" alt="" />
     <h4 className="story-title"><em>Wayne, Site Reliability Specialist at Facebook</em></h4>
-    <p><em>This week we got a chance to interview Wayne Banks. He is a Site Reliability Specialist at Facebook. Wayne has been through many obstacles on his way of becoming a Site Reliability Specialist, but despite all odds he came out on top. Here is his interview:</em></p>
+    <p><em>This week we got a chance to interview Wayne Banks. He is a Site Reliability Specialist at Facebook. Wayne has been through many obstacles on his way of becoming a Site Reliability Specialist, but despite all odds he came out on top.</em></p>
+  </div>
+);
+
+const interview = () => (
+  <div>
     <p><strong>Can you tell us a little bit about your background?</strong></p>
     <p>“I am a veteran who has taken a non-traditional path into tech. I began my journey while at Morehouse College; I was an economics undergraduate and I wanted to create opportunities to develop my leadership and business acumen, so I began to execute one of my business ideas that forced me to develop my technical skillset in order to bring it to life. The funny thing is I never considered going into the tech field - it was my desire to build my ideas that made being technical necessary.</p>
     <p>After I graduated from college, I spent some time as an MBA student at SF State but I felt that I was being led away from my passion. I decided that I would take a risk and invest my energy into dreams. I remember the day when I went to Startup Grind and was so inspired by these business and tech people who had chased their goals and won, so I vowed to keep my Startup Grind bracelet on until I found a way to get my startup funded. In 2016, I completed a web development and a product management immersive through General Assembly; this experience afforded me an opportunity to be hired as a software intern with Adobe’s PhotoShop Lightroom. I began my experience focusing on engineering and concluded the experience working in a product management capacity.</p>
@@ -23,11 +28,11 @@ const Story = () => (
     <p><strong>Can you tell us about your support group and how they kept you going during tough times?</strong></p>
     <p>“My best resource were fellow developers who I had studied or worked with; I would lean on them and share our experiences. Prayer - prayer is my best friend.”</p>
     <p><strong>Are you currently working on any side projects?</strong></p>
-    <p>“I am working on <a href = "https://tllis.net" target="_blank" rel="noopener noreferrer">The Limelight</a> app, a SAAS artist development platform - coming soon, and I am working on a mentorship application called The Mentor app - coming soon.”</p>
+    <p>“I am working on <a href="https://tllis.net" target="_blank" rel="noopener noreferrer">The Limelight</a> app, a SAAS artist development platform - coming soon, and I am working on a mentorship application called The Mentor app - coming soon.”</p>
     <p><strong>Do you have any last thoughts/advice?</strong></p>
     <p>“Never give up. Never stop learning, even on the job. This is a competitive field that requires you to know a lot. Don’t forget that just because you got a job. Keep growing. A rolling stone catches no moss. Remaining stagnant can make you a dinosaur. Don’t be a dinosaur. You see how that worked out for them.”</p>
     <p><em>For more awesome stories check out our <a href="https://www.facebook.com/buzzybee.io/" target="_blank" rel="noopener noreferrer">facebook</a> and <a href="https://medium.com/@buzzybeeio" target="_blank" rel="noopener noreferrer">medium</a> page!</em></p>
   </div>
 );
 
-export default Story;
+export default { introducction, interview };

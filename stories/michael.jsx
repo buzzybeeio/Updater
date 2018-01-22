@@ -1,10 +1,15 @@
 import React from 'react';
 
-const Story = () => (
+const introducction = () => (
   <div>
     <img className="narrator-pic" src="profilepics/michael.jpg" alt="" />
     <h4 className="story-title"><em>Michael, Engineer Consultant at Celerity Consulting Group</em></h4>
-    <p><em>This week we got a chance to interview MIchael Norelli. He is an Engineer Consultant at Celerity Consulting Group. Michael has attended General Assembly and is self-taught in programming. Here is the interview:</em></p>
+    <p><em>This week we got a chance to interview MIchael Norelli. He is an Engineer Consultant at Celerity Consulting Group. Michael has attended General Assembly and is self-taught in programming.</em></p>
+  </div>
+);
+
+const interview = () => (
+  <div>
     <p><strong>Can you tell us a little bit about your background?</strong></p>
     <p>“I work at an engineering consulting firm in Walnut Creek. I’m continuing what I was doing before - working with geographic mapping systems. It doesn’t consist of much programming at the moment but we are moving toward integrating more software. I did get a chance to look into a project with my coworkers where we were writing code to make sure that there were no duplicate PDFs, but we didn’t end up using it since there weren’t many duplicate documents in our database.”</p>
     <p><strong>How did you get started with programming?</strong></p>
@@ -27,4 +32,4 @@ const Story = () => (
   </div>
 );
 
-export default Story;
+export default { introducction, interview };

@@ -1,10 +1,15 @@
 import React from 'react';
 
-const Story = () => (
+const introducction = () => (
   <div>
     <img className="narrator-pic" src="profilepics/dante.jpg" alt="" />
     <h4 className="story-title"><em>Dante, CTO at Corisaude</em></h4>
-    <p><em>This week we got a chance to interview Dante Nolasco. He is the CTO of Corisaude, a startup working to improve elderly health. Dante’s startup was created at a Hackathon, where his team won $30,000 and a contract with the second largest health insurance company in Brazil. Here is the interview:</em></p>
+    <p><em>This week we got a chance to interview Dante Nolasco. He is the CTO of Corisaude, a startup working to improve elderly health. Dante’s startup was created at a Hackathon, where his team won $30,000 and a contract with the second largest health insurance company in Brazil.</em></p>
+  </div>
+);
+
+const interview = () => (
+  <div>
     <p><strong>Can you tell us a little bit about your background?</strong></p>
     <p>“I am 18 years old, I live in Brazil, and I like to create and learn new things. My family is involved in fashion retail and I was involved in it when I was young. In 2014, I moved to another city for high school and to attend a business program. At that time, I watched startups closely which sparked my interest in graphic design and filmmaking. In 2015, I attended an international event in NYC and I received the Best Web Design Award for a company created on a school project. It was a really simple project created on Wix but winning the award pushed me along the trajectory of programming. Since then, I started getting more and more involved with programming and web design. I had my first job when I was 17 as a Front-End React Developer at an entrepreneurial education startup.”</p>
     <p><strong>How did you start coding?</strong></p>
@@ -25,4 +30,4 @@ const Story = () => (
   </div>
 );
 
-export default Story;
+export default { introducction, interview };

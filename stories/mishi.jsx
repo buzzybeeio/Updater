@@ -1,10 +1,15 @@
 import React from 'react';
 
-const Story = () => (
+const introducction = () => (
   <div>
     <img className="narrator-pic" src="profilepics/mishi.jpg" alt="" />
     <h4 className="story-title"><em>Mishi, Software Engineer</em></h4>
-    <p><em>This week we got a chance to interview Mishi Charles. Mishi is on the journey toward being a Software Engineer; she is both self-taught and has attended a coding program, Learners Guild. Here is the interview:</em></p>
+    <p><em>This week we got a chance to interview Mishi Charles. Mishi is on the journey toward being a Software Engineer; she is both self-taught and has attended a coding program, Learners Guild.</em></p>
+  </div>
+);
+
+const interview = () => (
+  <div>
     <p><strong>Can you tell us a little bit about your background?</strong></p>
     <p>“I grew up in the Bay Area - Oakland and Alameda. My introduction to programming actually happened way back in the mid-90s when I was in middle school. I remember messing with HyperTalk, DOS, and HTML during the dial-up days. It was fun but I was still set on working in a biology-based science or in music. I still need to keep both ‘sides’ of my brain engaged and programming seems to work for both.”</p>
     <p><strong>What inspired you to become a software engineer?</strong></p>
@@ -27,4 +32,4 @@ const Story = () => (
   </div>
 );
 
-export default Story;
+export default { introducction, interview };
