@@ -4,7 +4,7 @@ const introducction = () => (
   <div>
     <img className="narrator-pic" src="profilepics/gorlan.jpg" alt="" />
     <h4 className="story-title"><em>Gorlan, Software Engineer at Capital One</em></h4>
-    <p><em>This week we got a chance to interview Gorlan Yuen. Gorlan has over three year of experiences as a Software Engineer. Here is the interview:</em></p>
+    <p><em>This week we got a chance to interview Gorlan Yuen. Gorlan has over three year of experiences as a Software Engineer.</em></p>
   </div>
 );
 
