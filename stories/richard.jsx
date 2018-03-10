@@ -2,7 +2,7 @@ import React from 'react';
 
 const introducction = () => (
   <div>
-    <img className="narrator-pic" src="profilepics/richard.jpg" alt="" />
+    <img className="narrator-pic" src="assets/profilepics/richard.png" alt="" />
     <h4 className="story-title"><em>Richard, Web Developer at Ascendify</em></h4>
     <p><em>This week we got a chance to interview Richard Chan. He is a Web Developer at Ascendify. Richard is passionate about helping people and wants to eventually create software to help Venezuela, the country that he grew up in.</em></p>
   </div>

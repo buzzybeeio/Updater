@@ -2,7 +2,7 @@ import React from 'react';
 
 const introducction = () => (
   <div>
-    <img className="narrator-pic" src="profilepics/jonathan.jpg" alt="" />
+    <img className="narrator-pic" src="assets/profilepics/jonathan.png" alt="" />
     <h4 className="story-title"><em>Jonathan, software engineer at Ten-X</em></h4>
     <p><em>This week we got a chance to interview Jonathan Ankiewicz. He is a software engineer at Ten-X. Jonathan made a transition the transition as a Security Officer to Software Engineer.</em></p>
   </div>

@@ -2,7 +2,7 @@ import React from 'react';
 
 const introducction = () => (
   <div>
-    <img className="narrator-pic" src="profilepics/dante.jpg" alt="" />
+    <img className="narrator-pic" src="assets/profilepics/dante.png" alt="" />
     <h4 className="story-title"><em>Dante, CTO at Corisaude</em></h4>
     <p><em>This week we got a chance to interview Dante Nolasco. He is the CTO of Corisaude, a startup working to improve elderly health. Dante’s startup was created at a Hackathon, where his team won $30,000 and a contract with the second largest health insurance company in Brazil.</em></p>
   </div>

@@ -2,7 +2,7 @@ import React from 'react'
 
 const introducction = () => (
   <div>
-    <img className="narrator-pic" src="profilepics/duy.jpg" alt="" />
+    <img className="narrator-pic" src="assets/profilepics/duy.png" alt="" />
     <h4 className="story-title"><em>Duy, Software Engineer Apprentice at Twilio</em></h4>
     <p><em>This week we got a chance to interview Duy Nguyen. He is a Software Engineer Apprentice at Twilio. Duy worked as a consultant prior to programming. He’s passionate about helping people break into the Tech Industry and making the World a better place.</em></p>
   </div>

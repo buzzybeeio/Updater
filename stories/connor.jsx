@@ -2,7 +2,7 @@ import React from 'react';
 
 const introducction = () => (
   <div>
-    <img className="narrator-pic" src="profilepics/connor.jpg" alt="" />
+    <img className="narrator-pic" src="assets/profilepics/connor.png" alt="" />
     <h4 className="story-title"><em>Connor, Senior Technichal Recruiter at MONDO</em></h4>
     <p><em>This week we got a chance to interview Connor Leech. Connor was a Senior Technical Recruiter at MONDO. Connor worked in sales prior to programming. He’s currently working on his own personal project.</em></p>
   </div>

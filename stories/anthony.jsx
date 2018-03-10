@@ -2,7 +2,7 @@ import React from 'react';
 
 const introducction = () => (
   <div>
-    <img className="narrator-pic" src="profilepics/anthony.jpg" alt="" />
+    <img className="narrator-pic" src="assets/profilepics/anthony.png" alt="" />
     <h4 className="story-title"><em>Anthony, CTO at FOWNDERS</em></h4>
     <p><em>This week we got a chance to interview Anthony Delgado. Anthony has had a passion for coding since he was a kid and he managed to become a CTO without a CS degree.</em></p>
   </div>

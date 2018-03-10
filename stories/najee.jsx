@@ -2,7 +2,7 @@ import React from 'react'
 
 const introducction = () => (
   <div>
-    <img className="narrator-pic" src="profilepics/najee.jpg" alt="" />
+    <img className="narrator-pic" src="assets/profilepics/najee.png" alt="" />
     <h4 className="story-title"><em>Najee, Software Trainer at Hack the Hood</em></h4>
     <p><em>This week we got a chance to interview Najee Amaranth. He is a Software Trainer at Hack the Hood. Despite not having a computer science degree, Najee has managed to break into the tech industry through hard work and dedication.</em></p>
   </div>

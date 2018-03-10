@@ -2,7 +2,7 @@ import React from 'react';
 
 const introducction = () => (
   <div>
-    <img className="narrator-pic" src="profilepics/ben.jpg" alt="" />
+    <img className="narrator-pic" src="assets/profilepics/ben.png" alt="" />
     <h4 className="story-title"><em>Ben, Engineer at The Information</em></h4>
     <p><em>This week we got a chance to interview Ben Manning. He is an Engineer at ‘The Information’. Ben was able to transition from being a Preschool Teacher to a Software Engineer.</em></p>
   </div>

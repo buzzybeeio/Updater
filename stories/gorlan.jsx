@@ -2,7 +2,7 @@ import React from 'react';
 
 const introducction = () => (
   <div>
-    <img className="narrator-pic" src="profilepics/gorlan.jpg" alt="" />
+    <img className="narrator-pic" src="assets/profilepics/gorlan.png" alt="" />
     <h4 className="story-title"><em>Gorlan, Software Engineer at Capital One</em></h4>
     <p><em>This week we got a chance to interview Gorlan Yuen. Gorlan has over three year of experiences as a Software Engineer.</em></p>
   </div>

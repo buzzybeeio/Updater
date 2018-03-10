@@ -2,7 +2,7 @@ import React from 'react'
 
 const introducction = () => (
   <div>
-    <img className="narrator-pic" src="profilepics/eileen.jpg" alt="" />
+    <img className="narrator-pic" src="assets/profilepics/eileen.png" alt="" />
     <h4 className="story-title"><em>Eileen, Software Engineer at therachat.io</em></h4>
     <p><em>This week we got a chance to interview Eileen Zhong. She is a Software Engineer at Therachat.io. Eileen not only managed to break into the tech industry without a computer science background but she managed to do so as a woman.</em></p>
   </div>

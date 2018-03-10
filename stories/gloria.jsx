@@ -2,7 +2,7 @@ import React from 'react';
 
 const introducction = () => (
   <div>
-    <img className="narrator-pic" src="profilepics/gloria.jpg" alt="" />
+    <img className="narrator-pic" src="assets/profilepics/gloria.png" alt="" />
     <h4 className="story-title"><em>Gloria, Software Engineer at QuanticMind</em></h4>
     <p><em>This week we got a chance to interview Gloria Chen. Although Gloria has a CS Degree, her journey to becoming a Software Engineer was not easy. Here is the interview:</em></p>
   </div>

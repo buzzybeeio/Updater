@@ -2,7 +2,7 @@ import React from 'react';
 
 const introducction = () => (
   <div>
-    <img className="narrator-pic" src="profilepics/stephen.jpg" alt="" />
+    <img className="narrator-pic" src="assets/profilepics/stephen.png" alt="" />
     <h4 className="story-title"><em>Stephen, Software Engineer at Marketo</em></h4>
     <p><em>This week we got a chance to interview Stephen Leung. He is a Software Engineer at Marketo. Stephen is passionate about programing and has gone through Hack Reactor to become a Software Engineer.</em></p>
   </div>

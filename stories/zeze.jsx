@@ -2,7 +2,7 @@ import React from 'react';
 
 const introducction = () => (
   <div>
-    <img className="narrator-pic" src="profilepics/zeze.jpg" alt="" />
+    <img className="narrator-pic" src="assets/profilepics/zeze.png" alt="" />
     <h4 className="story-title"><em>José, Software Engineer at Inbenta</em></h4>
     <p><em>This week we got a chance to interview José Manuel Vázquez Guízar. José is a Solutions Engineer at Inbenta. When he's not coding, he often times researches cryptocurrency.</em></p>
   </div>

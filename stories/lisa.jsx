@@ -2,7 +2,7 @@ import React from 'react';
 
 const introducction = () => (
   <div>
-    <img className="narrator-pic" src="profilepics/lisa.jpg" alt="" />
+    <img className="narrator-pic" src="assets/profilepics/lisa.png" alt="" />
     <h4 className="story-title"><em>Lisa, Freelancer</em></h4>
     <p><em>This week we got a chance to interview Lisa Bronwyn. Lisa is a Freelance Software Developer. She’s getting quite knowledgeable in PHP and JavaScript and has worked in WordPress for almost a decade.</em></p>
   </div>

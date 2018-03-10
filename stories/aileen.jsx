@@ -2,7 +2,7 @@ import React from 'react';
 
 const introducction = () => (
   <div>
-    <img className="narrator-pic" src="profilepics/aileen.jpg" alt="" />
+    <img className="narrator-pic" src="assets/profilepics/aileen.png" alt="" />
     <h4 className="story-title"><em>Aileen, Software Engineer Intern at Solv.</em></h4>
     <p><em>This week we got a chance to interview Aileen Santos. Aileen is a Software Engineer Intern at Solv Health. Prior to coding, Aileen was a teacher because she believes in education and contributing to society. Aileen continues to advocate for social causes through her coding.</em></p>
   </div>

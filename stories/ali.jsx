@@ -2,7 +2,7 @@ import React from 'react';
 
 const introducction = () => (
   <div>
-    <img className="narrator-pic" src="profilepics/ali.jpg" alt="" />
+    <img className="narrator-pic" src="assets/profilepics/ali.png" alt="" />
     <h4 className="story-title"><em>Ali, Software Engineer at App Academy</em></h4>
     <p><em>This week we got a chance to interview Ali Haq. He finished App Academy's Programming Course and is currently teaching there. Ali is extremely knowledgeable.</em></p>
   </div>

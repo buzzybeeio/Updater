@@ -2,7 +2,7 @@ import React from 'react';
 
 const introducction = () => (
   <div>
-    <img className="narrator-pic" src="profilepics/kavin.jpg" alt="" />
+    <img className="narrator-pic" src="assets/profilepics/kavin.png" alt="" />
     <h4 className="story-title"><em>Kavin, Software Engineering Student at 42 University</em></h4>
     <p><em>This week we got a chance to interview Kavin. Kavin is pursuing his dream of becoming a Software Engineer through attending 42 University. Here is the interview:</em></p>
   </div>

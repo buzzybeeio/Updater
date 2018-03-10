@@ -2,7 +2,7 @@ import React from 'react';
 
 const introducction = () => (
   <div>
-    <img className="narrator-pic" src="profilepics/rc.jpg" alt="" />
+    <img className="narrator-pic" src="assets/profilepics/rc.png" alt="" />
     <h4 className="story-title"><em>RC, Technical Teaching Fellow at Hack the Hood</em></h4>
     <p><em>This week we got a chance to interview RC Brown. RC broke into the Tech Space and is passionate about empowering others through code. Here is the interview:</em></p>
   </div>

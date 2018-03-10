@@ -2,7 +2,7 @@ import React from 'react';
 
 const introducction = () => (
   <div>
-    <img className="narrator-pic" src="profilepics/wayne.jpg" alt="" />
+    <img className="narrator-pic" src="assets/profilepics/wayne.png" alt="" />
     <h4 className="story-title"><em>Wayne, Site Reliability Specialist at Facebook</em></h4>
     <p><em>This week we got a chance to interview Wayne Banks. He is a Site Reliability Specialist at Facebook. Wayne has been through many obstacles on his way of becoming a Site Reliability Specialist, but despite all odds he came out on top.</em></p>
   </div>

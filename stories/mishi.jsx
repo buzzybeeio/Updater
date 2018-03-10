@@ -2,7 +2,7 @@ import React from 'react';
 
 const introducction = () => (
   <div>
-    <img className="narrator-pic" src="profilepics/mishi.jpg" alt="" />
+    <img className="narrator-pic" src="assets/profilepics/mishi.png" alt="" />
     <h4 className="story-title"><em>Mishi, Software Engineer</em></h4>
     <p><em>This week we got a chance to interview Mishi Charles. Mishi is on the journey toward being a Software Engineer; she is both self-taught and has attended a coding program, Learners Guild.</em></p>
   </div>

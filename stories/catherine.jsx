@@ -2,7 +2,7 @@ import React from 'react';
 
 const introducction = () => (
   <div>
-    <img className="narrator-pic" src="profilepics/catherine.jpg" alt="" />
+    <img className="narrator-pic" src="assets/profilepics/catherine.png" alt="" />
     <h4 className="story-title"><em>Catherine, Software Engineer Lead at Type A Machines</em></h4>
     <p><em>This week we got a chance to interview Catherine Casuat. She is the Software Engineering Lead at Type A Machines. Catherine is a self-taught Software Engineer.</em></p>
   </div>

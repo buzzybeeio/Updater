@@ -2,7 +2,7 @@ import React from 'react';
 
 const introducction = () => (
   <div>
-    <img className="narrator-pic" src="profilepics/kamila.jpg" alt="" />
+    <img className="narrator-pic" src="assets/profilepics/kamila.png" alt="" />
     <h4 className="story-title"><em>Kamila, Software Engineer Intern at Solv.</em></h4>
     <p><em>This week we got a chance to interview Kamila Lambert. She made a great transition from successful entrepreneur to working in the Tech Industry.</em></p>
   </div>

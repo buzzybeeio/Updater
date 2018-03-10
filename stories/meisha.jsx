@@ -2,7 +2,7 @@ import React from 'react';
 
 const introducction = () => (
   <div>
-    <img className="narrator-pic" src="profilepics/meisha.jpg" alt="" />
+    <img className="narrator-pic" src="assets/profilepics/meisha.png" alt="" />
     <h4 className="story-title"><em>Meisha, Customer Care/Technical Support at AugMedix</em></h4>
     <p><em>This week we got a chance to interview Meisha Booker. Meisha is starting her career in Tech with Augmedix, she has worked extremely hard to be where she is currently at. Here is the interview:</em></p>
   </div>

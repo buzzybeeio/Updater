@@ -2,7 +2,7 @@ import React from 'react';
 
 const introducction = () => (
   <div>
-    <img className="narrator-pic" src="profilepics/michael.jpg" alt="" />
+    <img className="narrator-pic" src="assets/profilepics/michael.png" alt="" />
     <h4 className="story-title"><em>Michael, Engineer Consultant at Celerity Consulting Group</em></h4>
     <p><em>This week we got a chance to interview MIchael Norelli. He is an Engineer Consultant at Celerity Consulting Group. Michael has attended General Assembly and is self-taught in programming.</em></p>
   </div>
