@@ -24,8 +24,6 @@ const interview = () => (
     <p>“I interviewed at a lot of places. The internships helped because it gave me some experience. My first job, I got it through uploading my resume at a job board. The ratio from application to interview to job offer is pretty low, and it decreases through each step.”</p>
     <p><strong>I know that you are also currently looking for a new position, is the approach different?</strong></p>
     <p>“I can be pickier now; I used to just shotgun everything, but I can look at what the company does now and have more options. Before it was, ‘Please give me a job’.”</p>
-    <p><strong>What is the salary range that you were looking for at the beginning of your career and what is the salary range that you are looking for after three years of experience?</strong></p>
-    <p>“In the beginning, my target salary was 70k and above, it was a big mistake. Don’t list your salary. Even for someone like me not having a CS background, it’s not a good idea to put your salary target. 70k was not my starting salary though, I was able to negotiate a higher salary. My second job, my target was 130k and above.”</p>
     <p><strong>Can you tell us about what you did as a Software Engineer at McKesson your first job?</strong></p>
     <p>“They are a health company. Some would say that they are a health tech company. The division that I was working with were building a data platform to help organizations collect and use the data. As you can imagine, there were a lot of client regulations so we were very careful.”</p>
     <p><strong>Did you have enough experience for your job from your previous internships?</strong></p>
